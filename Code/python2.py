@@ -132,15 +132,6 @@ def four(input1, input2):
 	# There is a module which can be used to generate random numbers, this module is called random.
 	# The random module contains a function called randint.
 
-# def five():
-#     import random
-#     random = []
-#     while len(random) < 5:
-#         num = random.randint(100, 201)
-#         if num % 2 == 0:
-#             random.append(num)
-#     return random
-
 
 	# <QUESTION 6>
 
@@ -190,8 +181,17 @@ def six(input):
 	# There is a function for lists called sort.
 	# Use the cli to access the documentation help(list.sort)
 
+
 def seven(a, b, c):
-	return False
+    numbers = [a, b, c]
+    numbers.sort()
+    spaced = 0
+    spaced = numbers[1] - numbers[0]
+    spaced -= numbers[2] - numbers[1]
+    if spaced == 0:
+        return True
+    else:
+        return False
 
 	# <QUESTION 8>
 
