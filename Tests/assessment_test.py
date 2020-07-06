@@ -8,19 +8,19 @@ from Code import python2
 #     assert python2.one("") == ""
 #     assert python2.one("IoT") == "IIIoooTTT"
 
-def test_two():
-    assert python2.two(3) == True
-    assert python2.two(8) == False
-    assert python2.two(2) == True
-    assert python2.two(20) == False
-    assert python2.two(73) == True
-#
-# def test_three():
-#     assert python2.three(9) == 11106
-#     assert python2.three(5) == 6170
-#     assert python2.three(2) == 2468
-#     assert python2.three(7) == 8638
-#     assert python2.three(4) == 4936
+# def test_two():
+#     assert python2.two(3) == True
+#     assert python2.two(8) == False
+#     assert python2.two(2) == True
+#     assert python2.two(20) == False
+#     assert python2.two(73) == True
+
+def test_three():
+    assert python2.three(9) == 11106
+    assert python2.three(5) == 6170
+    assert python2.three(2) == 2468
+    assert python2.three(7) == 8638
+    assert python2.three(4) == 4936
 #
 # def test_four():
 #     assert python2.four("String","Fridge") == "SFtrriidngge"
