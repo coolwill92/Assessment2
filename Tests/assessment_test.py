@@ -15,12 +15,12 @@ from Code import python2
 #     assert python2.two(20) == False
 #     assert python2.two(73) == True
 
-def test_three():
-    assert python2.three(9) == 11106
-    assert python2.three(5) == 6170
-    assert python2.three(2) == 2468
-    assert python2.three(7) == 8638
-    assert python2.three(4) == 4936
+# def test_three():
+#     assert python2.three(9) == 11106
+#     assert python2.three(5) == 6170
+#     assert python2.three(2) == 2468
+#     assert python2.three(7) == 8638
+#     assert python2.three(4) == 4936
 #
 # def test_four():
 #     assert python2.four("String","Fridge") == "SFtrriidngge"
@@ -29,14 +29,6 @@ def test_three():
 #     assert python2.four("return","letter") == "rleettutrenr"
 #     assert python2.four("Cat","Dog") == "CDaotg"
 #
-# def split(input):
-#     if len(input) != 5:
-#         return False
-#     else:
-#         for i in input:
-#             if i % 2 != 0 or 100 > i or i > 200:
-#                 return False
-#         return True
 #
 # def test_five():
 #     assert split(python2.five()) == True
@@ -45,12 +37,12 @@ def test_three():
 #     assert split(python2.five()) == True
 #     assert split(python2.five()) == True
 #
-# def test_six():
-#     assert python2.six("ilovepy") == True
-#     assert python2.six("welovepy") == True
-#     assert python2.six("welovepyforreal") == False
-#     assert python2.six("pyiscool") == False
-#     assert python2.six("hurrayforpY") == True
+def test_six():
+    assert python2.six("ilovepy") == True
+    assert python2.six("welovepy") == True
+    assert python2.six("welovepyforreal") == False
+    assert python2.six("pyiscool") == False
+    assert python2.six("hurrayforpY") == True
 #
 # def test_seven():
 #     assert python2.seven(2,4,6) == True
