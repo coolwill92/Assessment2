@@ -1,19 +1,19 @@
 import pytest
 from Code import python2
 
-def test_one():
-    assert python2.one("The") == "TTThhheee"
-    assert python2.one("AAbb") == "AAAAAAbbbbbb"
-    assert python2.one("Hi-There") == "HHHiii---TTThhheeerrreee"
-    assert python2.one("") == ""
-    assert python2.one("IoT") == "IIIoooTTT"
+# def test_one():
+#     assert python2.one("The") == "TTThhheee"
+#     assert python2.one("AAbb") == "AAAAAAbbbbbb"
+#     assert python2.one("Hi-There") == "HHHiii---TTThhheeerrreee"
+#     assert python2.one("") == ""
+#     assert python2.one("IoT") == "IIIoooTTT"
 
-# def test_two():
-#     assert python2.two(3) == True
-#     assert python2.two(8) == False
-#     assert python2.two(2) == True
-#     assert python2.two(20) == False
-#     assert python2.two(73) == True
+def test_two():
+    assert python2.two(3) == True
+    assert python2.two(8) == False
+    assert python2.two(2) == True
+    assert python2.two(20) == False
+    assert python2.two(73) == True
 #
 # def test_three():
 #     assert python2.three(9) == 11106

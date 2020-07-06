@@ -51,7 +51,16 @@ def one(input):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(range).
 
 def two(input):
-    return False
+    if (input==1):
+        return False
+    elif (input==2):
+        return True;
+    else:
+        for x in range(2,input):
+            if(input % x==0):
+                return False
+        return True
+
 
 	# <QUESTION 3>
 
